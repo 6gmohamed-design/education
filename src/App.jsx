@@ -9,6 +9,7 @@
       <Hero />
       <br />
       <Program />
+    <p className="text-3xl text-red-500">sdsd</p>
     </div>
   );
  }
