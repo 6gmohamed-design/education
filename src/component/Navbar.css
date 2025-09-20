@@ -1,0 +1,40 @@
+ #icon1{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+ }
+  
+  
+ #icon1:hover {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+ } 
+ #icon2{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+ }
+ #icon2:hover{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+ } 
+ #icon3{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+ }
+ #icon3:hover{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+ } 
