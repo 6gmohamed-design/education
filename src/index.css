@@ -9,4 +9,10 @@
   text-transform: capitalize;
   scroll-behavior: smooth;
 }
+@media screen and (max-width: 550px) {
+  
+  #item {
+    display: none;
+  }
+}
  
