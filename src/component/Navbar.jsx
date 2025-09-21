@@ -30,7 +30,7 @@ function Navbar() {
       <li className="flex justify-center items-center sm:hidden lg:block "> <button className="lg:text-xl   rounded-lg border border-white bg-amber-400 hover:bg-white hover:text-black py-6 px-10 w-[110px] lg:w-[150px]" >
         <a href="#contact">Contact us</a></button></li>
     </ul>
-    <div className="absolute top-5 right-5 cursor-pointer ">
+    <div className="absolute top-5 right-5 cursor-pointer lg:hidden ">
     <img src={menu} alt="menu" width={25} height={20} onClick={() => setShow(!show)} style={{ cursor: "pointer" }}/>
     </div>
  <div className="fixed top-0 left-0">
