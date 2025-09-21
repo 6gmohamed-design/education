@@ -7,4 +7,6 @@
   box-sizing: border-box;
   font-family: 'outfit', sans-serif;
   text-transform: capitalize;
+  scroll-behavior: smooth;
 }
+ 

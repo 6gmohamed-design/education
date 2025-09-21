@@ -4,7 +4,7 @@
     function Hero() {
         return (
             <>
-       <div className="hero min-h-screen min-w-full bg-cover bg-center" >
+       <div className="hero min-h-screen min-w-full bg-cover bg-center"id="home" >
 <div className="max-h-full hero-content text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center gap-5">
     <h1 className="text-5xl font-bold text-white">We ensure better education for better future</h1>
     <h5 className="text-white mb-10">our mission is to provide quality education to all  children
