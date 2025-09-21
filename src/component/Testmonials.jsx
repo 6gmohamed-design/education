@@ -22,7 +22,7 @@ function Testmonials() {
         <img src={back} alt="" className='lg:w-16 lg:h-16 sm:w-10 sm:h-10 border bg-blue-800 rounded-full cursor-pointer hover:bg-amber-400 hover:text-white' onClick={() => setTraselate(traselate + 100)} style={{ padding: "-40px" }} />
         <img src={next} alt="" className='lg:w-16 lg:h-16 sm:w-10 sm:h-10 border bg-blue-800 rounded-full cursor-pointer hover:bg-amber-400 hover:text-white' onClick={() => setTraselate(traselate - 100)} style={{ padding: "-40px" }} />
        </div>
-       <div className='flex justify-between flex-nowrap transition-transform duration-500 ease-in-out rounded-2xl items-center gap-4 text-center text-amber-500 w-full md:flex-row flex-col overflow-hidden ' style={{ margin: "20px 60px" ,padding: "20px" }} >
+       <div className='flex justify-between flex-nowrap transition-transform duration-500 ease-in-out rounded-2xl items-center gap-4 text-center text-amber-500 w-full lg:flex-row md:flex-row sm:flex-row overflow-hidden ' style={{ margin: "20px 60px" ,padding: "20px" }} >
         <div className='rounded-2xl  flex justify-center items-center flex-col border bg-blue-800 min-w-[450px] sm:max-w-[250px] min-h-[300px] overflow-hidden scroll-behavior-smooth lg:rounded-3xl' style={{ padding: "20px", transform: `translateX(${traselate}%)`,transition: "transform 0.5s ease-in-out" ,margin: "0 auto"}}>
         <img src={user1} alt="" className='w-full h-full object-cover content-center rounded-full' />
         <h1 className='text-2xl  font-bold text-amber-200 hover:text-white'>John Doe</h1>
